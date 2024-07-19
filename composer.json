@@ -1,0 +1,21 @@
+{
+    "name": "partitech/php-tei-client",
+    "description": "Simple php client for text embeddings inference from Hugging face",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Partitech\\PhpTeiClient\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2.7"
+    },
+    "scripts": {
+        "tests": "phpunit"
+    },
+    "require": {
+        "symfony/http-client": "^6.4 || ^7.0",
+        "amphp/http-client": "^4.2.1"
+    }
+}
