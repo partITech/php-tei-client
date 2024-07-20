@@ -55,7 +55,7 @@ $client = new TeiClient(url: 'http://localhost:8080', apiKey: 'yourApiKey');
 
 
 // Rerank an array of texts based on a query
-$content = ['Deep learning is...', 'sheeze is made of', 'Deep Learning is not...'];
+$content = ['Deep learning is...', 'cheese is made of', 'Deep Learning is not...'];
 $result = $client->rerank('What is the difference between Deep Learning and Machine Learning?', $content);
 ```
 Result:
@@ -93,7 +93,7 @@ $client = new TeiClient(url: 'http://localhost:8080', apiKey: 'yourApiKey');
 
 
 // Rerank an array of texts based on a query
-$content = ['Deep learning is...', 'sheeze is made of', 'Deep Learning is not...'];
+$content = ['Deep learning is...', 'cheese is made of', 'Deep Learning is not...'];
 $result = $client->getRerankedContent('What is the difference between Deep Learning and Machine Learning?', $content);
 ```
 Result: 
