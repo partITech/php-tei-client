@@ -1,7 +1,6 @@
 # PHP TEI Client
 
-This is a very simple PHP client for the [Text Embeddings Inference (TEI)](https://github.com/huggingface/text-embeddings-inference) text embedding inference
-server from Huggingface , which is a blazing fast inference solution for text embeddings models. This client allows you to easily interact with the TEI server's API endpoints for embedding, reranking, and prediction.
+This is a very simple PHP client for the [Text Embeddings Inference (TEI)](https://github.com/huggingface/text-embeddings-inference) server from Huggingface , which is a blazing fast inference solution for text embeddings models. This client allows you to easily interact with the TEI server's API endpoints for embedding, reranking, and prediction.
 
 ## Installation
 
